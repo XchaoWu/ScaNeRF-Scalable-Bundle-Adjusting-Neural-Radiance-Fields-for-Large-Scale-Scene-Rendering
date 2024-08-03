@@ -1,0 +1,64 @@
+DATADIR: "/data/wxc/data/sig23/community"
+DESCRIPTION: ""
+PREFIX: ""
+
+ALLOCATION:
+  TILE_SIZE: [20,13,30]
+  OVERLAP_RATIO: 0.2 
+  OFFSET: [-2, 7.5, 8]
+  EXPECT_NUM: 4
+  MIN_NUM_IMAGE: 60 
+  MAX_DIM_TILE: [100000, 1, 1]
+  SCENE_TYPE: "outdoor"
+
+INVALID_UNDERGROUND: True 
+SEED: 0
+
+SCENE: "default"
+
+# training TILES with GPU xxx
+GPU: [4,5,6,7]
+TILES: [0,1,2,3]
+
+
+MAX_POSES: 400
+UPDATE_MASK_STEP: 10000
+
+
+TRAINING:
+
+  GRID_LOG2DIM: [5,6,7,8,9]
+  PRUNING_TH: [0.1,0.2,0.3,0.4]
+  ADJUST_STEP: 2000
+
+  BS_LOG2DIM: 14 # batch size = 2 ** BS_LOG2DIM 
+  NUM_SAMPLE: 128 
+  NUM_BG_SAMPLE: 128
+  TOTAL_STEP: 40000
+
+  BG_MODE: "IZ"
+
+  ETA:
+    HASH_FEATURE: 0.001 
+    DECODER: 0.001 
+    CAM: 0.0001
+
+  CAMOPT:
+    ENABLE: True # if optimize camera poses 
+    NOISE: 0. # noise to camera poses 
+    START_STEPS: 0
+
+  LOSS:
+    WEIGHT_RGB_LOSS: 1.0 
+    WEIGHT_WARP_LOSS: 1.0
+    WEIGHT_DEPTH_LOSS: 0.01
+    WEIGHT_DEPTH_SMOOTH_LOSS: 0.001
+    WARP_WARPING: True 
+
+    RGB_LOSS_START: 0
+    WARP_LOSS_START: 0
+    DEPTH_LOSS_START: 0
+    DEPTH_SMOOTH_LOSS_START: 0
+
+    ALPHA: 10.0
+    GAMMA: 20.0

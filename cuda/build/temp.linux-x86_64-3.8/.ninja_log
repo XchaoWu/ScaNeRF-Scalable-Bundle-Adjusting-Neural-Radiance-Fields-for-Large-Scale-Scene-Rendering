@@ -1,0 +1,10 @@
+# ninja log v5
+10	2786	1691379148897196221	/data/wxc/sig23_new/Camera_poses_optimization/test_code/cuda/build/temp.linux-x86_64-3.8/data/wxc/sig23_new/Camera_poses_optimization/test_code/cuda/cnpy.o	bce6ee59f708aac6
+11	17161	1691379163265679245	/data/wxc/sig23_new/Camera_poses_optimization/test_code/cuda/build/temp.linux-x86_64-3.8/data/wxc/sig23_new/Camera_poses_optimization/test_code/cuda/binding.o	b856fefd6e23ca9b
+0	31726	1691379177834164214	/data/wxc/sig23_new/Camera_poses_optimization/test_code/cuda/build/temp.linux-x86_64-3.8/data/wxc/sig23_new/Camera_poses_optimization/test_code/cuda/sample_kernel.o	2447bcc2dfde44b0
+1	32119	1691379178234177463	/data/wxc/sig23_new/Camera_poses_optimization/test_code/cuda/build/temp.linux-x86_64-3.8/data/wxc/sig23_new/Camera_poses_optimization/test_code/cuda/view_selection_kernel.o	2c87baad473d151f
+9	32207	1691379178318180245	/data/wxc/sig23_new/Camera_poses_optimization/test_code/cuda/build/temp.linux-x86_64-3.8/data/wxc/sig23_new/Camera_poses_optimization/test_code/cuda/build_blocks_kernel.o	586ae29aa167c189
+0	32389	1691379178498186206	/data/wxc/sig23_new/Camera_poses_optimization/test_code/cuda/build/temp.linux-x86_64-3.8/data/wxc/sig23_new/Camera_poses_optimization/test_code/cuda/adam_kernel.o	46bad5b00bfc0609
+2	32546	1691379178658191503	/data/wxc/sig23_new/Camera_poses_optimization/test_code/cuda/build/temp.linux-x86_64-3.8/data/wxc/sig23_new/Camera_poses_optimization/test_code/cuda/helper_kernel.o	bc6f67cb8fe8f7be
+6	32585	1691379178694192695	/data/wxc/sig23_new/Camera_poses_optimization/test_code/cuda/build/temp.linux-x86_64-3.8/data/wxc/sig23_new/Camera_poses_optimization/test_code/cuda/grid_sample_kernel.o	ea29dc2faeed2a65
+6	32620	1691379178730193888	/data/wxc/sig23_new/Camera_poses_optimization/test_code/cuda/build/temp.linux-x86_64-3.8/data/wxc/sig23_new/Camera_poses_optimization/test_code/cuda/compute_ray_kernel.o	1b84eb805be0ed60

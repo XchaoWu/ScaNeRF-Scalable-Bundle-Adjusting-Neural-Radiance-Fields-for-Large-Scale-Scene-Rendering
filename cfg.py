@@ -1,0 +1,2 @@
+TRAIN = 0
+INFERENCE = 1

@@ -1,0 +1,11 @@
+# ninja log v5
+9	574	1684142691926055767	/data/wxc/sig23_new/Camera_poses_optimization/test_code/HashGrid/build/temp.linux-x86_64-3.8/src/rendering/renderbase_outdoor_v1_kernel.o	2f279b84b4aa0351
+7	586	1684142691938055884	/data/wxc/sig23_new/Camera_poses_optimization/test_code/HashGrid/build/temp.linux-x86_64-3.8/src/rendering/rayblocksampling_kernel.o	622479380112d9bf
+6	633	1684142691986056352	/data/wxc/sig23_new/Camera_poses_optimization/test_code/HashGrid/build/temp.linux-x86_64-3.8/src/rendering/renderbase_outdoor_kernel.o	1f97d7575deda719
+8	645	1684142691994056431	/data/wxc/sig23_new/Camera_poses_optimization/test_code/HashGrid/build/temp.linux-x86_64-3.8/src/rendering/rayblocktracing_kernel.o	2bd8d84c8daa5fca
+10	18874	1684142710210234133	/data/wxc/sig23_new/Camera_poses_optimization/test_code/HashGrid/build/temp.linux-x86_64-3.8/binding.o	717773a2d877d17b
+1	31616	1684142722958358442	/data/wxc/sig23_new/Camera_poses_optimization/test_code/HashGrid/build/temp.linux-x86_64-3.8/src/hashgrid_bg_kernel.o	2981bdea57b3f21c
+1	31957	1684142723298361757	/data/wxc/sig23_new/Camera_poses_optimization/test_code/HashGrid/build/temp.linux-x86_64-3.8/src/hashgrid_kernel.o	ca8cbe00596ce543
+0	32539	1684142723882367451	/data/wxc/sig23_new/Camera_poses_optimization/test_code/HashGrid/build/temp.linux-x86_64-3.8/src/sampler_kernel.o	6550fc54a17608c2
+6	33249	1684142724594374392	/data/wxc/sig23_new/Camera_poses_optimization/test_code/HashGrid/build/temp.linux-x86_64-3.8/src/rendering/renderbase_kernel.o	a7972207ff75f639
+5	164907	1684142856243655854	/data/wxc/sig23_new/Camera_poses_optimization/test_code/HashGrid/build/temp.linux-x86_64-3.8/src/rendering_kernel.o	f23b219f2de12cbb

@@ -1,0 +1,4 @@
+# ninja log v5
+1	30	1680092427945147710	/data/wxc/sig23_new/Camera_poses_optimization/test_code/fastMesh/build/temp.linux-x86_64-3.8/src/fastMesh.o	ccab4eba85561156
+2	15859	1680092443757482900	/data/wxc/sig23_new/Camera_poses_optimization/test_code/fastMesh/build/temp.linux-x86_64-3.8/binding.o	1f407234f3a13fa5
+1	34803	1680092462697885515	/data/wxc/sig23_new/Camera_poses_optimization/test_code/fastMesh/build/temp.linux-x86_64-3.8/src/fastMesh_kernel.o	e5f68c885ff2543
